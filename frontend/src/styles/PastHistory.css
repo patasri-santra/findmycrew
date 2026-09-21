@@ -1,0 +1,59 @@
+.history-page {
+  max-width: 650px;
+}
+
+.history-page h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: rgba(242,240,234,0.6);
+  margin-bottom: 28px;
+}
+
+.empty-text {
+  color: rgba(242,240,234,0.4);
+  font-style: italic;
+}
+
+.history-card {
+  background: rgba(27, 27, 39, 0.7);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 18px 22px;
+  margin-bottom: 16px;
+}
+
+.history-card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.history-name {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.history-rating {
+  color: var(--ink);
+  background-color: var(--accent);
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.history-project {
+  font-size: 13px;
+  color: rgba(242,240,234,0.5);
+  margin-bottom: 8px;
+}
+
+.history-comment {
+  font-size: 14px;
+  color: rgba(242,240,234,0.75);
+  font-style: italic;
+}

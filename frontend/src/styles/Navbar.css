@@ -1,0 +1,149 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background-color: rgba(18, 18, 27, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logo-mark {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.logo-word {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--paper);
+}
+
+.navbar-links {
+  display: flex;
+  gap: 6px;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: rgba(242,240,234,0.6);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.15s;
+}
+
+.nav-link:hover {
+  color: var(--paper);
+}
+
+.nav-link.active {
+  color: var(--accent);
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 14px;
+  right: 14px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.post-project-btn {
+  background: var(--accent);
+  color: var(--ink);
+  border: none;
+  padding: 9px 18px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.post-project-btn:hover {
+  opacity: 0.85;
+}
+
+.avatar-menu {
+  position: relative;
+}
+
+.avatar-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  color: var(--paper);
+  border: 1px solid rgba(255,255,255,0.15);
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.avatar-dropdown {
+  position: absolute;
+  top: 46px;
+  right: 0;
+  background: #1B1B27;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+.avatar-dropdown button {
+  background: none;
+  border: none;
+  color: var(--paper);
+  text-align: left;
+  padding: 10px 12px;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.avatar-dropdown button:hover {
+  background: rgba(255,255,255,0.06);
+}
+
+.logout-item {
+  color: var(--pink) !important;
+}

@@ -1,0 +1,88 @@
+.browse-page {
+  max-width: 700px;
+}
+
+.browse-page h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: rgba(242,240,234,0.6);
+  margin-bottom: 28px;
+}
+
+.empty-text {
+  color: rgba(242,240,234,0.4);
+  font-style: italic;
+}
+
+.project-card {
+  background: rgba(27, 27, 39, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 22px 26px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.project-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.project-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  gap: 12px;
+}
+
+.project-title {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--paper);
+}
+
+.project-payment {
+  color: var(--ink);
+  background-color: var(--accent);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.project-desc {
+  font-size: 14px;
+  color: rgba(242,240,234,0.65);
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.skill-tag {
+  background-color: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: rgba(242,240,234,0.8);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.project-posted-by {
+  font-size: 12px;
+  color: rgba(242,240,234,0.4);
+}

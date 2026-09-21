@@ -1,0 +1,125 @@
+.details-page {
+  max-width: 640px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: rgba(242,240,234,0.5);
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+.details-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.details-top h1 {
+  font-size: 30px;
+}
+
+.status-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.status-badge.open {
+  background-color: rgba(52, 211, 153, 0.15);
+  color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.status-badge.closed {
+  background-color: rgba(255,255,255,0.06);
+  color: rgba(242,240,234,0.5);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.details-payment {
+  font-family: 'Sora', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 18px;
+}
+
+.details-desc {
+  font-size: 15px;
+  color: rgba(242,240,234,0.75);
+  line-height: 1.7;
+  margin-bottom: 22px;
+}
+
+.details-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.skill-tag {
+  background-color: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: rgba(242,240,234,0.8);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.details-poster {
+  font-size: 14px;
+  margin-bottom: 28px;
+  padding: 14px 18px;
+  background: rgba(27, 27, 39, 0.7);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.details-actions {
+  display: flex;
+  gap: 14px;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--ink);
+  padding: 13px 26px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Sora', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.contact-btn:hover {
+  opacity: 0.85;
+}
+
+.close-project-btn {
+  background-color: transparent;
+  color: var(--paper);
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 13px 26px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Sora', sans-serif;
+  cursor: pointer;
+}
+
+.close-project-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}

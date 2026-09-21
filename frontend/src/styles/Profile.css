@@ -1,0 +1,143 @@
+.profile-page {
+  max-width: 560px;
+}
+
+.profile-page h1 {
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+.profile-card {
+  background: rgba(27, 27, 39, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 24px 26px;
+  max-width: 400px;
+  margin-bottom: 16px;
+}
+
+.profile-card .profile-field:last-child {
+  margin-bottom: 0;
+}
+
+.profile-field {
+  margin-bottom: 22px;
+}
+
+.profile-field label {
+  display: block;
+  font-size: 12px;
+  color: rgba(242,240,234,0.5);
+  margin-bottom: 8px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.profile-field p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.profile-field input,
+.profile-field select {
+  width: 100%;
+  padding: 12px 14px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  font-size: 15px;
+  color: var(--paper);
+  font-family: 'Inter', sans-serif;
+}
+
+.edit-btn,
+.save-btn {
+  background-color: var(--accent);
+  color: var(--ink);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Sora', sans-serif;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: opacity 0.15s;
+}
+
+.edit-btn:hover,
+.save-btn:hover {
+  opacity: 0.85;
+}
+
+.profile-message {
+  color: var(--green);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.profile-reviews-section {
+  margin-top: 48px;
+  padding-top: 36px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.profile-reviews-section h2 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.reviews-subtext {
+  color: rgba(242,240,234,0.55);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.empty-text {
+  color: rgba(242,240,234,0.4);
+  font-style: italic;
+}
+
+.review-card {
+  background: rgba(27, 27, 39, 0.7);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin-bottom: 14px;
+}
+
+.review-card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.review-name {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.review-rating {
+  color: var(--ink);
+  background-color: var(--accent);
+  padding: 2px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.review-project {
+  font-size: 13px;
+  color: rgba(242,240,234,0.5);
+  margin-bottom: 8px;
+}
+
+.review-comment {
+  font-size: 14px;
+  color: rgba(242,240,234,0.75);
+  font-style: italic;
+}

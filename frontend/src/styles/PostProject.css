@@ -1,0 +1,60 @@
+.post-project-page {
+  max-width: 520px;
+}
+
+.post-project-page h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: rgba(242,240,234,0.6);
+  margin-bottom: 24px;
+}
+
+.post-project-page label {
+  display: block;
+  font-size: 12px;
+  color: rgba(242,240,234,0.5);
+  margin-bottom: 8px;
+  margin-top: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.post-project-page input,
+.post-project-page textarea {
+  width: 100%;
+  padding: 12px 14px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  font-size: 15px;
+  color: var(--paper);
+  font-family: 'Inter', sans-serif;
+}
+
+.submit-btn {
+  background-color: var(--accent);
+  color: var(--ink);
+  border: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Sora', sans-serif;
+  cursor: pointer;
+  margin-top: 24px;
+  transition: opacity 0.15s;
+}
+
+.submit-btn:hover {
+  opacity: 0.85;
+}
+
+.error-text {
+  color: var(--pink);
+  font-size: 14px;
+  margin-top: 12px;
+}

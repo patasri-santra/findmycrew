@@ -1,0 +1,30 @@
+.user-profile-page {
+  max-width: 650px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: rgba(242,240,234,0.5);
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+.user-profile-page h1 {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.user-type {
+  color: rgba(242,240,234,0.55);
+  margin-bottom: 28px;
+  text-transform: capitalize;
+}
+
+.reviews-heading {
+  font-family: 'Sora', sans-serif;
+  font-size: 20px;
+  margin-bottom: 16px;
+}

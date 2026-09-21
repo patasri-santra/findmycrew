@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ink: #12121B;
+  --paper: #F2F0EA;
+  --accent: #5EEAD4;
+  --pink: #FF6B9D;
+  --green: #34D399;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--ink);
+  color: var(--paper);
+}
+
+h1, h2 {
+  font-family: 'Sora', sans-serif;
+}
